@@ -9,16 +9,16 @@
 
     <ListView
         android:id="@+id/listViews"
-        android:layout_width="256dp"
-        android:layout_height="545dp"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="55dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="130dp">
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="58dp">
 
     </ListView>
 
@@ -41,12 +41,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="125dp"
-        android:layout_height="53dp"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="125dp"
         android:layout_marginEnd="161dp"
-        android:text="List from firebase" />
+        android:text="List from firebase"
+        android:textColor="#000000" />
 
 </RelativeLayout>
